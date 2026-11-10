@@ -3,93 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jiaqi Yang’s personal portfolio and selected projects.">
-  <title>Jiaqi Yang — Portfolio</title>
+  <meta name="description" content="Jiaqi Yang’s work in enterprise AI and biomedical imaging research.">
+  <title>Jiaqi Yang — Industry &amp; Research</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap" id="top">
-    <a class="wordmark" href="#top"><span aria-hidden="true">✳</span> Jiaqi Yang</a>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap site-header">
+    <a class="wordmark" href="index.html">Jiaqi Yang<span>.</span></a>
     <nav aria-label="Main navigation">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="industry.html">Industry</a>
+      <a href="research.html">Research</a>
     </nav>
   </header>
-
-  <main id="main" class="wrap">
-    <section class="hero" aria-labelledby="intro">
+  <main class="wrap" id="main">
+    <section class="intro profile-intro" aria-labelledby="title">
       <div>
-        <p class="label"><span class="dot"></span> Personal portfolio</p>
-        <!-- Replace the headline and intro with your own short introduction. -->
-        <h1 id="intro">Hi, I’m<br>Jiaqi Yang<span>.</span></h1>
-        <p class="intro">A space for my projects, ideas, and things I’m learning along the way.</p>
-        <a class="button" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+        <p class="eyebrow">Applied AI &amp; biomedical imaging</p>
+        <h1 id="title">Jiaqi Yang</h1>
+        <p class="current-role">Director, AI/ML Transformation at Unum</p>
+        <p class="lede">I build applied AI systems that understand documents, images, and language, and lead their development from research to production. My ongoing research explores medical image analysis and learning from limited annotations.</p>
+        <p class="credential">Ph.D. in Computer Science · CUNY Graduate Center</p>
+        <nav class="section-links" aria-label="Connect with Jiaqi">
+          <a href="https://www.linkedin.com/in/jyang-5566/">LinkedIn ↗</a>
+          <a href="https://scholar.google.com/citations?user=Nos8TtAAAAAJ&amp;hl=en">Google Scholar ↗</a>
+          <a href="https://github.com/yangjiaqidig">GitHub ↗</a>
+        </nav>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <svg viewBox="0 0 320 320" fill="none">
-          <circle cx="160" cy="160" r="115" fill="#e3e98d"/>
-          <g stroke="currentColor" stroke-width="1.3">
-            <circle cx="160" cy="160" r="115"/>
-            <ellipse cx="160" cy="160" rx="115" ry="49" transform="rotate(-32 160 160)"/>
-            <ellipse cx="160" cy="160" rx="115" ry="49" transform="rotate(32 160 160)"/>
-            <ellipse cx="160" cy="160" rx="49" ry="115"/>
-            <path d="M160 25v270M25 160h270" stroke-dasharray="3 5"/>
-          </g>
-          <circle cx="160" cy="160" r="6" fill="currentColor"/>
-          <circle cx="253" cy="92" r="8" fill="#f8f7ef" stroke="currentColor"/>
-          <circle cx="68" cy="226" r="5" fill="currentColor"/>
-        </svg>
-        <span class="label art-caption">Fig. 01 / In orbit</span>
+      <div class="profile-photo-frame">
+        <img class="profile-photo" src="assets/jiaqi-yang.jpg" alt="Jiaqi Yang" width="400" height="400">
       </div>
     </section>
 
-    <section class="section" id="work" aria-labelledby="work-title">
-      <p class="label">01 / Portfolio</p>
-      <h2 id="work-title">Selected work</h2>
-      <!-- Replace these sample cards with real projects. Add links to demos or writeups when available. -->
-      <div class="projects">
-        <article>
-          <div class="project-art art-grid" aria-hidden="true"><span>01</span></div>
-          <p class="label">Sample project / Build</p>
-          <h3>A project you built</h3>
-          <p>Describe the problem you set out to solve, what you built, and one decision that shaped the result.</p>
-        </article>
-        <article>
-          <div class="project-art art-rings" aria-hidden="true"><span>02</span></div>
-          <p class="label">Sample project / Explore</p>
-          <h3>A project you explored</h3>
-          <p>Share a question you investigated, how you approached it, and what you learned along the way.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section split" id="about" aria-labelledby="about-title">
-      <div>
-        <p class="label">02 / A little background</p>
-        <h2 id="about-title">About me</h2>
-      </div>
-      <!-- Replace this prompt with a short bio and add your résumé link here if you have one. -->
-      <p>Use this space to introduce yourself. Share what you’re working on now, what draws you to that work, and what you’d like to explore next.</p>
-    </section>
-
-    <section class="section split" id="contact" aria-labelledby="contact-title">
-      <div>
-        <p class="label">03 / Contact</p>
-        <h2 id="contact-title">Say hello</h2>
-      </div>
-      <div>
-        <p>You can find me on GitHub.</p>
-        <!-- Add a mailto link or another profile when you’re ready to share it. -->
-        <a class="button" href="https://github.com/yangjiaqidig">GitHub <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
+    <div class="tracks">
+      <section class="track industry">
+        <p class="eyebrow">01 / Industry</p>
+        <h2>AI in production</h2>
+        <p>Experience at Unum, Mobi.AI, and RealFriend, spanning document understanding, multimodal AI, and production systems.</p>
+        <a href="industry.html">Explore industry work <span aria-hidden="true">↗</span></a>
+      </section>
+      <section class="track research">
+        <p class="eyebrow">02 / Research</p>
+        <h2>Biomedical imaging</h2>
+        <p>Publications in medical imaging and machine learning, alongside peer review, talks, and teaching.</p>
+        <a href="research.html">Explore research <span aria-hidden="true">↗</span></a>
+      </section>
+    </div>
   </main>
-
-  <footer class="site-footer wrap">
+  <footer class="wrap site-footer">
     <span>Jiaqi Yang</span>
-    <a href="#top">Back to top ↑</a>
+    <nav aria-label="Profiles">
+      <a href="https://scholar.google.com/citations?user=Nos8TtAAAAAJ&amp;hl=en">Google Scholar ↗</a>
+      <a href="https://www.linkedin.com/in/jyang-5566/">LinkedIn ↗</a>
+      <a href="https://github.com/yangjiaqidig">GitHub ↗</a>
+    </nav>
   </footer>
 </body>
 </html>
